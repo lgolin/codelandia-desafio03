@@ -86,8 +86,8 @@
 }
 
 .qualidade-item {
-  flex: 1 1 calc(33.333% - 200px);
-  margin: 20px 100px 20px 0;
+  flex: 1 1 auto;
+  margin: 20px 10px;
 
   height: 423px;
   width: 340px;
@@ -96,9 +96,8 @@
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
 }
 
-.qualidade-item h2,
-p {
-  padding: 1.875rem;
+.qualidade-title, .qualidade-description {
+  padding: 1.5rem;
 }
 
 .qualidade-item h2 {
@@ -116,50 +115,6 @@ p {
   line-height: 1.875rem;
   color: var(--text);
 }
-
-/* .produtos {
-  max-width: var(--max-width);
-  margin: 60px auto;
-}
-
-.produtos-container {
-  width: 340px;
-  flex-wrap: wrap;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-}
-
-.produtos-item {
-  flex: 1 1 175px;
-  margin: 10px;
-}
-
-.card_purple {
-  content: '';
-  padding-top: 216px;
-  width: 340px;
-}
-
-.produtos-text {
-  background: var(--white);
-  padding-bottom: 216px;
-  padding: 30px;
-}
-
-.produtos-text h2 {
-  font-family: var(--merriweather);
-  font-size: 1.5rem;
-  line-height: 30.17px;
-  color: var(--title);
-  padding-bottom: 25px;
-}
-
-.produtos-text p {
-  font-family: var(--lato);
-  font-size: 1.125rem;
-  line-height: 30px;
-  color: var(--text);
-}*/
 
 .red {
   height: 210px;
@@ -210,46 +165,44 @@ footer {
 
 footer h2 {
   font-family: var(--merriweather);
-  font-size: 32px;
-  line-height: 40.22px;
-  margin: 100px 0;
+  font-size: 2rem;
+  line-height: 2.513rem;
+  margin: 6.25rem 0;
 }
 
 input {
-  width: 470px;
-  height: 65px;
+  width: 29.375rem;
+  height: 4.062rem;
 
   margin-bottom: 15px;
+  padding-left: 10px;
 
   background: #ffffff;
   border-radius: 6px;
 
   border: none;
+
 }
 
-input,
-textarea::placeholder {
+input::placeholder, textarea::placeholder {
   font-family: var(--lato);
-  font-size: 18px;
-  line-height: 21.6px;
-  padding-left: 15px;
+  font-size: 1.125rem;
+  line-height: 1.35rem;
+  /*padding-left: 1rem;*/
 }
 
-textarea::placeholder {
-  padding-top: 20px;
+textarea {
+  width: 29.375rem;
+  height: 10.312rem;
+  background: #ffffff;
+  border-radius: 6px;
+  border: none;
+  padding: 0.625rem;
 }
 
 input,
 textarea:focus {
   outline: 0;
-}
-
-textarea {
-  width: 470px;
-  height: 165px;
-  background: #ffffff;
-  border-radius: 6px;
-  border: none;
 }
 
 .form {
@@ -274,4 +227,35 @@ textarea {
 
 button:hover {
   background: var(--buttonHover);
+}
+
+/* Media queries */
+
+@media screen and (max-width: 1120px) {
+  .header_img img {
+    /*margin-top: 5rem;*/
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .header_img img {
+    margin-top: 5rem;
+    width: 100%;
+  }
+
+  .qualidade {
+    margin: 4rem auto;
+  }
+
+  footer h2 {
+    margin: 4rem 0;
+  }
+
+  input, textarea,.form button {
+    width: 20rem;
+    height: 4.062rem;
+  }
+
+
 }

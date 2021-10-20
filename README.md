@@ -1,19 +1,17 @@
 # Codelândia
 
-<!-- <p align="center">
-	<img src="https://i.imgur.com/RjUNlyv.png" alt="Codelândia" title="Codelândia">
-</p> -->
-
 ## About
 
-This project was developed for the third challenge of the **[Codelandia](https://discord.com/invite/QevDJqCzaY)** community. The aim of this project was to practice frontend development by developing a simple news blog.
+This project was developed for the third challenge of the **[Codelandia](https://discord.com/invite/QevDJqCzaY)** community. The aim of this project was to practice frontend development by developing one page website.
 
+![](img/image.gif)
 ---
 
 ## Technologies
 
 - **HTML5**
 - **CSS3**
+- **JavaScript**
 
 ---
 
@@ -21,7 +19,7 @@ This project was developed for the third challenge of the **[Codelandia](https:/
 
 You can view the project layout through the links below:
 
-- **[Figma](https://www.figma.com/file/Yb9IBH56g7T1hdIyZ3BMNO/Desafios---Codel%C3%A2ndia?node-id=3738%3A2)**<br>
+- **[Figma](https://www.figma.com/file/Yb9IBH56g7T1hdIyZ3BMNO/Desafios---Codel%C3%A2ndia?node-id=3743%3A36)**<br>
 
 ---
 
@@ -29,8 +27,8 @@ You can view the project layout through the links below:
 
 ```bash
 # Clone the project and access the folder.
-git clone https://github.com/lgolin/codelandia-desafio3.git
-cd codelandia-desafio3
+git clone https://github.com/lgolin/codelandia-desafio03.git
+cd codelandia-desafio03
 ```
 
 **OBS:** It is recommended that you use liveserver to access the project on your local server [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
