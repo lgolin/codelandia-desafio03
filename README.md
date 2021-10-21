@@ -6,7 +6,6 @@ This project was developed for the third challenge of the **[Codelandia](https:/
 
 ![](img/image.gif)
 ---
-
 ## Technologies
 
 - **HTML5**
